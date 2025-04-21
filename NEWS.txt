@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Video Editing Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1a1a1a;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+    .video-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    video {
+      width: 100%;
+      border: 2px solid #444;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Video Editing Portfolio</h1>
+  </header>
+
+  <section class="intro">
+    <p>Hello! I'm a passionate video editor specializing in storytelling, music syncing, and visual aesthetics. Here are a few samples of my work. Let's create something amazing together!</p>
+  </section>
+
+  <section class="video-section">
+    <div>
+      <h2 style="text-align:center;">Solo</h2>
+      <video controls>
+        <source src="solo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div>
+      <h2 style="text-align:center;">Life</h2>
+      <video controls>
+        <source src="Life.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div>
+      <h2 style="text-align:center;">Market U</h2>
+      <video controls>
+        <source src="MARKET U.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: yourname@example.com</p>
+  </footer>
+</body>
+</html>
